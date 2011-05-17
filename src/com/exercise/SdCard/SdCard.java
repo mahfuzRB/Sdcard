@@ -15,7 +15,8 @@ public class SdCard extends Activity {
         
         
      // Create a sub Folder in SD card.
-        String newFolder = "/RBAnalysis";
+       // String newFolder = "/RBAnalysis";
+        String newFolder = "/root";
         String extStorageDirectory = Environment.getExternalStorageDirectory().toString();
         File myNewFolder = new File(extStorageDirectory + newFolder);
         myNewFolder.mkdir();
